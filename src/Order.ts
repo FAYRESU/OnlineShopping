@@ -94,7 +94,7 @@ export class Order {
             status=${this.status},
             total=${this.total},
             ${this.lineItems.toString()},
-            ${this.payment ? this.payment.toString() : "undefined"}
+            ${this.payment ? this.payment.toString() : ""}
         ]`;
     }
 }
